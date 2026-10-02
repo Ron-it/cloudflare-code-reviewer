@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "clef-email-labeler",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-09",
+  "triggers": {
+    "crons": ["*/5 * * * *"]
+  },
+  "vars": {
+    "FLAG_FLOOR": "0.7",
+    "LABEL_AFTER": "1790897649"
+  },
+  "ai": {
+    "binding": "AI"
+  },
+  "observability": {
+    "enabled": true
+  }
+}

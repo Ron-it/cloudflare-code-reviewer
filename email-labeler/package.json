@@ -1,0 +1,21 @@
+{
+  "name": "clef-email-labeler",
+  "version": "1.0.0",
+  "description": "Labels new Gmail inbox messages with Cloudflare's Clef decision model on a cron trigger.",
+  "private": true,
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev --test-scheduled",
+    "deploy": "wrangler deploy",
+    "auth": "node scripts/google-auth.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "arktype": "^2.2.7"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261001.1",
+    "typescript": "^5.7.3",
+    "wrangler": "^4.146.0"
+  }
+}
