@@ -4,8 +4,9 @@
   "main": "src/index.ts",
   "compatibility_date": "2026-09-09",
   "vars": {
-    "GITHUB_APP_ID": "4900280",
-    "JEV_ESCALATION_FLOOR": "0.5"
+    "GITHUB_APP_ID": "5155799",
+    "TRIAGE_ESCALATION_FLOOR": "0.5",
+    "AI_GATEWAY_NAME": "default"
   },
   "ai": {
     "binding": "AI"
